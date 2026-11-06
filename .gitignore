@@ -1,0 +1,19 @@
+# Local tools / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
+.cache/
+# Credentials and local data
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
